@@ -155,6 +155,7 @@
     <ClCompile Include="easy\Design\359_LoggerRateLimiter.cpp" />
     <ClCompile Include="easy\DS\339_NestedListWeightSum.cpp" />
     <ClCompile Include="easy\LinkedList\876_MiddleOfTheLinkedList.cpp" />
+    <ClCompile Include="easy\Math\800_similar-rgb-color.cpp" />
     <ClCompile Include="easy\Math\867_TransposeMatrix.cpp" />
     <ClCompile Include="easy\Regular\709_ToLowerCase.cpp" />
     <ClCompile Include="easy\Regular\830_PositionsOfLargeGroups.cpp" />

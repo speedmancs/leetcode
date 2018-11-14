@@ -84,6 +84,9 @@
     <ClCompile Include="easy\BinarySearch\852_PeakIndexInAMountainArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="easy\Math\800_similar-rgb-color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
