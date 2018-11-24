@@ -9,7 +9,11 @@
 #include <cmath>
 #include <sstream>
 #include <queue>
+#include <algorithm>
+#include <numeric>
 #include <cstdlib>
+#include <unordered_map>
+#include <unordered_set>
 #include <climits>
 
 #define NS(X) namespace LC##X {
