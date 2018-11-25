@@ -15,7 +15,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <climits>
-
+#include <functional>
 #define NS(X) namespace LC##X {
 #define END_NS }
 #define DEC_TEST(X) NS(X) \
