@@ -61,6 +61,6 @@ public:
 void Test()
 {
     vector<int> v = { 7,6,2 };
-    Solution().minCost(v);
+    //Solution().minCost(v);
 }
 END_NS

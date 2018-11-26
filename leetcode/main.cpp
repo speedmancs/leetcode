@@ -14,10 +14,10 @@ DEC_TEST(937)
 DEC_TEST(893)
 DEC_TEST(884)
 DEC_TEST(256)
-DEC_TEST(905)
+DEC_TEST(246)
 
 int main()
 {
-    LC905::Test();
+    LC246::Test();
     return 0;
 }

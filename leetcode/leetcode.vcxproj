@@ -164,6 +164,8 @@
     <ClCompile Include="easy\BitOperation\868_BinaryGap.cpp" />
     <ClCompile Include="easy\Design\346_MovingAverageFromDataStream.cpp" />
     <ClCompile Include="easy\Design\359_LoggerRateLimiter.cpp" />
+    <ClCompile Include="easy\Dict\246_strobogrammatic-number.cpp" />
+    <ClCompile Include="easy\Dict\734_sentence-similarity.cpp" />
     <ClCompile Include="easy\Dict\884_uncommon-words-from-two-sentences.cpp" />
     <ClCompile Include="easy\Dict\929_unique-email-addresses.cpp" />
     <ClCompile Include="easy\DS\339_NestedListWeightSum.cpp" />

@@ -195,6 +195,12 @@
     <ClCompile Include="easy\Regular\874_walking-robot-simulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="easy\Dict\734_sentence-similarity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\Dict\246_strobogrammatic-number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
