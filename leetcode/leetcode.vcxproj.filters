@@ -201,6 +201,27 @@
     <ClCompile Include="easy\Dict\246_strobogrammatic-number.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="medium\DFS\247_strobogrammatic-number-ii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\Regular\422_valid-word-square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\String\758_bold-words-in-string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\BinaryTree\558_quad-tree-intersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\PQ\743_network-delay-time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\Array\849_maximize-distance-to-closest-person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easy\Stack\716_max-stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

@@ -9,6 +9,7 @@
 #include <cmath>
 #include <sstream>
 #include <queue>
+#include <stack>
 #include <algorithm>
 #include <numeric>
 #include <cstdlib>

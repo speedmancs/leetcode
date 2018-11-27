@@ -1,6 +1,41 @@
 #include "..\..\stdafx.h"
 using namespace std;
 NS(743)
+//class Solution {
+//public:
+//    int networkDelayTime(vector<vector<int>>& times, int N, int K) {
+//        vector<vector<pair<int, int>>> edges(N);
+//        for (auto& v : times)
+//        {
+//            edges[v[0] - 1].push_back(make_pair(v[1] - 1, v[2]));
+//        }
+//        K--;
+//        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+//        vector<int> dist(N, INT_MAX);
+//        dist[K] = 0;
+//        pq.push(make_pair(0, K));
+//        while (!pq.empty())
+//        {
+//            int u = pq.top().second;
+//            pq.pop();
+//
+//            for (auto& p : edges[u])
+//            {
+//                int v = p.first;
+//                if (dist[u] + p.second < dist[v])
+//                {
+//                    dist[v] = dist[u] + p.second;
+//                    pq.push(make_pair(dist[v], v));
+//                }
+//            }
+//        }
+//
+//        int val = *max_element(dist.begin(), dist.end());
+//        return val == INT_MAX ? -1 : val;
+//    }
+//};
+
+// Optimization with hashset
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -14,32 +49,31 @@ public:
         vector<int> dist(N, INT_MAX);
         dist[K] = 0;
         pq.push(make_pair(0, K));
-        unordered_set<int> S;
+        //unordered_set<int> S;
+        vector<bool> S(N, false);
         while (!pq.empty())
         {
             int u = pq.top().second;
-            int minDis = pq.top().first;
             pq.pop();
 
-            if (S.find(u) != S.end()) continue;
-            S.insert(u);
+            if (S[u]) continue;
+            S[u] = true;
 
             for (auto& p : edges[u])
             {
                 int v = p.first;
-                if (minDis + p.second < dist[v])
+                if (dist[u] + p.second < dist[v])
                 {
-                    dist[v] = minDis + p.second;
+                    dist[v] = dist[u] + p.second;
                     pq.push(make_pair(dist[v], v));
                 }
             }
         }
 
-        if (S.size() != N) return -1;
-        return *max_element(dist.begin(), dist.end());
+        int val = *max_element(dist.begin(), dist.end());
+        return val == INT_MAX ? -1 : val;
     }
 };
-
 //class Solution {
 //public:
 //    int networkDelayTime(vector<vector<int>>& times, int N, int K) {

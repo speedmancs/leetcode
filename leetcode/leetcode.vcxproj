@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="easy\Array\849_maximize-distance-to-closest-person.cpp" />
     <ClCompile Include="easy\Array\888_FairCandySwap.cpp" />
     <ClCompile Include="easy\Array\896_MonotonicArray.cpp" />
     <ClCompile Include="easy\Array\905_sort-array-by-parity.cpp" />
@@ -155,6 +156,7 @@
     <ClCompile Include="easy\BinarySearch\852_PeakIndexInAMountainArray.cpp" />
     <ClCompile Include="easy\BinaryTree\270_closest-binary-search-tree-value.cpp" />
     <ClCompile Include="easy\BinaryTree\429_NaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="easy\BinaryTree\558_quad-tree-intersection.cpp" />
     <ClCompile Include="easy\BinaryTree\559_maximum-depth-of-n-ary-tree.cpp" />
     <ClCompile Include="easy\BinaryTree\589_n-ary-tree-preorder-traversal.cpp" />
     <ClCompile Include="easy\BinaryTree\700_search-in-a-binary-search-tree.cpp" />
@@ -183,8 +185,10 @@
     <ClCompile Include="easy\Math\892_SurfaceAreaof3DShapes.cpp" />
     <ClCompile Include="easy\Math\908_smallest-range-i.cpp" />
     <ClCompile Include="easy\Math\942_di-string-match.cpp" />
+    <ClCompile Include="easy\PQ\743_network-delay-time.cpp" />
     <ClCompile Include="easy\Queue\703_kth-largest-element-in-a-stream.cpp" />
     <ClCompile Include="easy\Queue\933_number-of-recent-calls.cpp" />
+    <ClCompile Include="easy\Regular\422_valid-word-square.cpp" />
     <ClCompile Include="easy\Regular\709_ToLowerCase.cpp" />
     <ClCompile Include="easy\Regular\830_PositionsOfLargeGroups.cpp" />
     <ClCompile Include="easy\Regular\874_walking-robot-simulation.cpp" />
@@ -192,8 +196,10 @@
     <ClCompile Include="easy\Sort\252_meeting-rooms.cpp" />
     <ClCompile Include="easy\Sort\937_ReorderLogFiles.cpp" />
     <ClCompile Include="easy\Array\243_ShortestWordDistance.cpp" />
+    <ClCompile Include="easy\Stack\716_max-stack.cpp" />
     <ClCompile Include="easy\String\266_PalindromePermutation.cpp" />
     <ClCompile Include="easy\String\293_FlipGame.cpp" />
+    <ClCompile Include="easy\String\758_bold-words-in-string.cpp" />
     <ClCompile Include="easy\String\844_backspace-string-compare.cpp" />
     <ClCompile Include="easy\String\893_groups-of-special-equivalent-strings.cpp" />
     <ClCompile Include="easy\String\917_reverse-only-letters.cpp" />
@@ -207,6 +213,7 @@
     <ClCompile Include="medium\Design\348_Design_TicTacToe.cpp" />
     <ClCompile Include="medium\DP\750_NumberOfCornerRactangles.cpp" />
     <ClCompile Include="medium\DS\364_NestedListWeightSum2.cpp" />
+    <ClCompile Include="medium\DFS\247_strobogrammatic-number-ii.cpp" />
     <ClCompile Include="medium\Math\861_ScoreAfterFlippingMatrix.cpp" />
     <ClCompile Include="medium\string\544_OutputContestMatches.cpp" />
   </ItemGroup>
