@@ -147,11 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="easy\Array\840_magic-squares-in-grid.cpp" />
     <ClCompile Include="easy\Array\849_maximize-distance-to-closest-person.cpp" />
     <ClCompile Include="easy\Array\888_FairCandySwap.cpp" />
     <ClCompile Include="easy\Array\896_MonotonicArray.cpp" />
     <ClCompile Include="easy\Array\905_sort-array-by-parity.cpp" />
     <ClCompile Include="easy\Array\922_sort-array-by-parity-ii.cpp" />
+    <ClCompile Include="easy\Array\941_valid-mountain-array.cpp" />
     <ClCompile Include="easy\BinarySearch\704_binary-search.cpp" />
     <ClCompile Include="easy\BinarySearch\852_PeakIndexInAMountainArray.cpp" />
     <ClCompile Include="easy\BinaryTree\270_closest-binary-search-tree-value.cpp" />
@@ -170,13 +172,17 @@
     <ClCompile Include="easy\Dict\734_sentence-similarity.cpp" />
     <ClCompile Include="easy\Dict\884_uncommon-words-from-two-sentences.cpp" />
     <ClCompile Include="easy\Dict\929_unique-email-addresses.cpp" />
+    <ClCompile Include="easy\DP\276_paint-fence.cpp" />
     <ClCompile Include="easy\DS\339_NestedListWeightSum.cpp" />
     <ClCompile Include="easy\DS\427_construct-quad-tree.cpp" />
+    <ClCompile Include="easy\DS\604_design-compressed-string-iterator.cpp" />
     <ClCompile Include="easy\DS\705_design-hashset.cpp" />
     <ClCompile Include="easy\DS\706_design-hashmap.cpp" />
+    <ClCompile Include="easy\DS\707_design-linked-list.cpp" />
     <ClCompile Include="easy\Greedy\860_lemonade-change.cpp" />
     <ClCompile Include="easy\LinkedList\876_MiddleOfTheLinkedList.cpp" />
     <ClCompile Include="easy\Math\256_paint-house.cpp" />
+    <ClCompile Include="easy\Math\624_maximum-distance-in-arrays.cpp" />
     <ClCompile Include="easy\Math\800_similar-rgb-color.cpp" />
     <ClCompile Include="easy\Math\836_rectangle-overlap.cpp" />
     <ClCompile Include="easy\Math\867_TransposeMatrix.cpp" />
@@ -184,6 +190,7 @@
     <ClCompile Include="easy\Math\883_projection-area-of-3d-shapes.cpp" />
     <ClCompile Include="easy\Math\892_SurfaceAreaof3DShapes.cpp" />
     <ClCompile Include="easy\Math\908_smallest-range-i.cpp" />
+    <ClCompile Include="easy\Math\914_x-of-a-kind-in-a-deck-of-cards.cpp" />
     <ClCompile Include="easy\Math\942_di-string-match.cpp" />
     <ClCompile Include="easy\PQ\743_network-delay-time.cpp" />
     <ClCompile Include="easy\Queue\703_kth-largest-element-in-a-stream.cpp" />
@@ -197,6 +204,7 @@
     <ClCompile Include="easy\Sort\937_ReorderLogFiles.cpp" />
     <ClCompile Include="easy\Array\243_ShortestWordDistance.cpp" />
     <ClCompile Include="easy\Stack\716_max-stack.cpp" />
+    <ClCompile Include="easy\String\157_read-n-characters-given-read4.cpp" />
     <ClCompile Include="easy\String\266_PalindromePermutation.cpp" />
     <ClCompile Include="easy\String\293_FlipGame.cpp" />
     <ClCompile Include="easy\String\758_bold-words-in-string.cpp" />
@@ -204,6 +212,7 @@
     <ClCompile Include="easy\String\893_groups-of-special-equivalent-strings.cpp" />
     <ClCompile Include="easy\String\917_reverse-only-letters.cpp" />
     <ClCompile Include="easy\String\925_long-pressed-name.cpp" />
+    <ClCompile Include="hard\string\158_read-n-characters-given-read4-ii-call-multiple-times.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="medium\Array\209_Minumum_SizeSubArraySum_On.cpp" />
     <ClCompile Include="medium\Array\209_Minumum_SizeSubArraySum_Onlgn.cpp" />
