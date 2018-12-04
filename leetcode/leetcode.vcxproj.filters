@@ -249,6 +249,9 @@
     <ClCompile Include="easy\DS\604_design-compressed-string-iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="easy\String\859_buddy-strings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

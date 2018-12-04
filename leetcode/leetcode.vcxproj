@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="easy\String\859_buddy-strings.cpp" />
     <ClCompile Include="easy\Array\840_magic-squares-in-grid.cpp" />
     <ClCompile Include="easy\Array\849_maximize-distance-to-closest-person.cpp" />
     <ClCompile Include="easy\Array\888_FairCandySwap.cpp" />
