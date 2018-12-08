@@ -147,6 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="medium\Array\885_spiral-matrix-iii.cpp" />
+    <ClCompile Include="medium\BinaryTree\701_insert-into-a-binary-search-tree.cpp" />
+    <ClCompile Include="medium\BinaryTree\894_all-possible-full-binary-trees.cpp" />
+    <ClCompile Include="medium\BinaryTree\951_flip-equivalent-binary-trees.cpp" />
+    <ClCompile Include="medium\queue\950_reveal-cards-in-increasing-order.cpp" />
     <ClCompile Include="easy\String\859_buddy-strings.cpp" />
     <ClCompile Include="easy\Array\840_magic-squares-in-grid.cpp" />
     <ClCompile Include="easy\Array\849_maximize-distance-to-closest-person.cpp" />
@@ -225,7 +230,9 @@
     <ClCompile Include="medium\DS\364_NestedListWeightSum2.cpp" />
     <ClCompile Include="medium\DFS\247_strobogrammatic-number-ii.cpp" />
     <ClCompile Include="medium\Math\861_ScoreAfterFlippingMatrix.cpp" />
+    <ClCompile Include="medium\Stack\921_minimum-add-to-make-parentheses-valid.cpp" />
     <ClCompile Include="medium\string\544_OutputContestMatches.cpp" />
+    <ClCompile Include="medium\string\890_find-and-replace-pattern.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />

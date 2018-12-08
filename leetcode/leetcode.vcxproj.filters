@@ -252,6 +252,27 @@
     <ClCompile Include="easy\String\859_buddy-strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="medium\queue\950_reveal-cards-in-increasing-order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\BinaryTree\701_insert-into-a-binary-search-tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\string\890_find-and-replace-pattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\Stack\921_minimum-add-to-make-parentheses-valid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\BinaryTree\894_all-possible-full-binary-trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\BinaryTree\951_flip-equivalent-binary-trees.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="medium\Array\885_spiral-matrix-iii.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
